@@ -7,24 +7,19 @@ html{
 }
 body{
     background-color:#ebebeb !important; 
-    /* background-color: #E4F9F5; */
     font-family: 'Oswald', sans-serif;
+    
      
  }
  marquee{
      font-size: 1.3rem;
-     /* border: 2px solid red; */
      width: 32%;
      margin: auto;
      text-align: center;
  }
 #logo img {
       height: 123px;
-      margin: 18px;
-}
-#logo{
-    margin: 3px;
-
+      margin: 0px 24px
 }
 
 #navbar{
@@ -34,17 +29,16 @@ body{
     align-items: center;
     position: sticky;
     height: 115px;
-     font-family: 'Baloo Bhai', cursive;
+    top :0;
+    z-index: 1;
+    font-family: 'Baloo Bhai', cursive;
 }
 #icon{
-    width: 60%;
    /* border: 2px solid red; */
    display: flex;
-  
 }
 #icon li a{
     color: white;
-    position: relative;
     padding: 1px 13px ;
     border: 1px solid rgb(0, 238, 255);
     border-radius: 8px ;
@@ -56,9 +50,6 @@ body{
     background-color: white;
     border: 1px solid rgb(0, 238, 255);
     border-radius: 20px ;
-    
-   
-
 }
 
 #icon li {
@@ -67,7 +58,6 @@ body{
     /* border: 2px solid red; */
   
 }
-
 
 .primary{
 font-size: 45px;
@@ -79,7 +69,7 @@ top: 34px;
 }
 .headingStyle{
  letter-spacing: 6px;
-text-shadow: 16px 22px 11px rgb(0 0 0 / 80%);
+
 }
 
 #home{
@@ -92,9 +82,11 @@ text-shadow: 16px 22px 11px rgb(0 0 0 / 80%);
 #home img{
     margin:  0px 9%;
     width: 300px;
-    box-shadow: rgb(73 73 73) 5px 5px, rgb(0 0 0 / 30%) 10px 10px, rgb(0 0 0 / 20%) 15px 15px, rgb(0 0 0 / 10%) 20px 20px, rgb(0 0 0 / 5%) 25px 25px
-    /* border: 2px solid red; */
+    box-shadow: rgb(73 73 73) 5px 5px, rgb(0 0 0 / 30%) 10px 10px, rgb(0 0 0 / 20%) 15px 15px, rgb(0 0 0 / 10%) 20px 20px;
+    transition: all 0.7s ease-in;
+ 
 } 
+
 
 
 #home::before{
@@ -113,6 +105,7 @@ text-shadow: 16px 22px 11px rgb(0 0 0 / 80%);
     0 32px 16px rgba(0,0,0,0.09);
    
 }
+
 .section{
     display: flex;
     align-items: center;
@@ -126,10 +119,7 @@ text-shadow: 16px 22px 11px rgb(0 0 0 / 80%);
     margin: 3% 0%;
     padding: 0px 30px;
     border-radius: 34px;
-    box-shadow:
-    inset 0 -3em 3em rgba(0,0,0,0.1),
-          0 0  0 2px rgb(255,255,255),
-          0.3em 0.3em 1em rgba(0,0,0,0.3);
+
 
 }  
 
@@ -143,9 +133,7 @@ text-shadow: 16px 22px 11px rgb(0 0 0 / 80%);
     
 }     
 
-
 #skills{
-   position: relative;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -156,10 +144,7 @@ text-shadow: 16px 22px 11px rgb(0 0 0 / 80%);
    border-radius: 15px;
    font-size: 1.3rem;
    /* border: 1px solid black; */
-   box-shadow:
-   inset 0 -3em 3em rgba(0,0,0,0.1),
-         0 0  0 2px rgb(255,255,255),
-         0.3em 0.3em 1em rgba(0,0,0,0.3);
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
   
 }
 progress {
@@ -193,25 +178,18 @@ progress {
     border-radius: 23px;
     font-family: 'Bree Serif', serif;
     padding: 56px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    /* border: 2px solid red; */
-    
+
 }
 
 #education img{
    height: 200px;
    box-shadow: 0 8px 6px -6px black;
-   /* border: 2px solid red; */
-    
- 
 }
 .item-1{
     display: flex;
-    /* border: 2px solid red; */
     margin:35px 23px;
 }
 .item-1p{
-    /* border: 2px solid red; */
     margin:28px 35px;
     font-size: 1.2rem;
 }
@@ -219,22 +197,14 @@ progress {
     display: flex;
     margin:35px 23px;
     flex-direction: row-reverse;
-    /* border: 2px solid red; */
 }
-
-
 
 #proCard{
     margin: 30px 15px;
     border-radius: 23px;
-    /* border: 2px solid black; */
     display: flex;
     text-align: center;
-    /* justify-content: space-evenly; */
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
     justify-content: center;
-    
     flex-wrap: wrap;
     box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
@@ -242,8 +212,8 @@ progress {
     margin: 34px 34px;
     padding: 3px;
     max-width: 363px;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+ 
 }
 .card:hover{
     box-shadow: 5px 5px rgba(0, 98, 90, 0.4),
@@ -255,24 +225,18 @@ progress {
 }
 .card img{
     height:124px;
-    /* border: 2px solid red; */
 }
 .card p{
     margin: 20px 4px;
-    /* border: 2px solid red; */
 }
 #contact{
-
-    /* margin-top: 10px; */
-    /* width: 100%; */
     margin: 30px 120px;
     border-radius: 23px;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* background-color: #E4F9F5; */
+    
 }
 .IMG{
     margin: 10px 26px;
@@ -280,16 +244,13 @@ progress {
     height: 60px;
     width: 60px;
     cursor: pointer;
-    box-shadow: 0 8px 6px -6px black;
-    
 }
 .IMG:hover{
 
-    -webkit-box-shadow: 3px 3px 5px 6px rgb(81, 80, 80);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 5px 6px rgb(81, 80, 80);  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 5px 6px rgb(81, 80, 80);
-
+    transform: scale(1.2);
+    transition: all 0.4s ease-in;
 }
+
 .glow-on-hover {
     width: 134px;
     height: 34px;
@@ -308,7 +269,6 @@ progress {
     text-decoration: none;
     font-size: 20px;
     letter-spacing: 2px;
-   
 }
 
 .glow-on-hover:before {
@@ -381,24 +341,27 @@ footer a{
 
 @media only screen and (max-width: 900px) {
     #navbar{
-        height: 447px;
+        opacity: 0.8;
+        height: 164px;
         flex-direction: column;
         transition: all 0.7s ease-in;
     }
-
-
-    #icon{
-        display: block;
-        text-align: left;
-        /* border: 2px solid red; */
-        width: 100%;
-    }
     #icon li{
-      margin: 16px 40%;
-      /* border: 2px solid red; */
-
-    }
- 
+        margin: 9px;
+  
+      }
+      #icon li a{
+        /* margin: 16px 40%; */
+        /* border: 2px solid red; */
+        font-size:16px;
+        padding: 6px;
+        /* margin: 2px; */
+  
+      }
+      #logo img {
+          height: 100px;
+      }
+   
     #item-1{
         margin:0px 10px;
         margin-top: 0px;
@@ -409,28 +372,41 @@ footer a{
     
          text-align: center;
          width: 200px;
-         margin: 32px 0px;
+         margin-top: 16px;
       
     } 
+    .primary-2 {
+        font-size: 34px;
 
+    }
+    
     #skills{
         width: 85%;
     }
     progress {
         margin: 0px 0px;
         padding: 0px 0px;
-     }
-     
-      label{
-         margin: 0px 33px;
-         padding: 23px 0px;
-     }
-     
+    }
+    
+    label{
+        margin: 0px 33px;
+        padding: 23px 0px;
+    }
+    
     .section{
-      flex-direction: column;
+        flex-direction: column;
+    }
+    .item-1p{
+        font-size: medium;
     }
     .item-1{
         flex-direction: column;
+        margin: 0px;
+    }
+    #item-1{
+        font-size: small;
+        margin: 16px 0px ;
+
     }
 
     .item-2{
@@ -458,4 +434,25 @@ footer a{
     footer p{
         text-align: center;
     }
+  }
+
+
+  @media only screen and (max-width: 415px) {
+    #navbar{
+     height: auto;
+    }
+    #icon{
+       flex-wrap: wrap;
+     }
+    #icon li{
+        margin: 5px;
+      }
+      #icon li a{
+        font-size:14px;
+        padding: 4px;
+      }
+      #logo img {
+          height: 100px;
+      }
+   
   }
