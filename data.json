@@ -1,6 +1,6 @@
 [    {
         "title":"Amazon Clone",
-        "image":"img\\postPerson.png",
+        "image":"img\\AmazonClone.png",
         "Discription":"Amazon clone Technology that I have learned and apply are: React, Redux, React Contax API, firebase, Material Ui, stripe js,Features:  Firebase Authentication used to create account and loginFor payment gateway (only front end) I have used stripe jsUser can add and remove the product from the basket (Redux for Data layerI have hosted this project on firebase responsive Ui",
         "date":"05-09-2021",
         "Visit":"https://clone-216bc.web.app/"
