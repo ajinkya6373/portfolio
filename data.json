@@ -1,7 +1,7 @@
 [   
         {
     "title":"socialjinx",
-    "image":"img\\socialjinx.netlify.app_(Moto G4).png",
+    "image":"img\\Screenshot (70).png",
     "Discription":"This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage.",
     "date":"05-09-2021",
     "Visit":"https://socialjinx.netlify.app/"
