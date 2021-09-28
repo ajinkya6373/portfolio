@@ -1,4 +1,12 @@
 [   
+        {
+    "title":"socialjinx",
+    "image":"https://raw.githubusercontent.com/ajinkya6373/Netflix-Clone/main/netflix-preview.png",
+    "Discription":"This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage.",
+    "date":"05-09-2021",
+    "Visit":"https://socialjinx.netlify.app/"
+
+},
      {
     "title":"Netflix clone",
     "image":"https://raw.githubusercontent.com/ajinkya6373/Netflix-Clone/main/netflix-preview.png",
