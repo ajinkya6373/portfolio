@@ -2,7 +2,8 @@
         {
     "title":"socialjinx",
     "image":"img\\Screenshot (70).png",
-    "Discription":"This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage.",
+    "Discription":"front-end :  React, redux, styled-components back-end : Express Js, node js, mongodb , multur hosting : heruko , netlify
+",
     "date":"05-09-2021",
     "Visit":"https://socialjinx.netlify.app/"
 
