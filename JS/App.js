@@ -10,7 +10,7 @@ function changeImage() {
 }
 
 image.addEventListener("click",  changeImage)
-// setInterval(changeImage, 6000);
+
 
 function getData() {
     let proCard = document.getElementById("proCard");
@@ -20,13 +20,13 @@ function getData() {
     }).then((data) => {
         for (let i = 0; i < data.length; i++) {
             let obj = data[i];
-            // console.log(obj.title);
             proCard.innerHTML += `<div class="card" id="card-${i}">
             <h3>${obj.title}</h3>
             <img src="${obj.image}" alt="img here">
             <p>${obj.Discription}</p>
-            <div>
-            <button class="glow-on-hover"><a href="${obj.Visit}" target="_blank" >Visit</a></button>
+            <div class="BtnContainer">
+            <a class="glow-on-hover" href="${obj.Visit}" target="_blank" >visit</a>
+            <a class="glow-on-hover" href="${obj.source}" target="_blank" >source code</a>
             </div>
         </div>`
         }

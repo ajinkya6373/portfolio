@@ -1,83 +1,130 @@
-[   
-        {
-    "title":"socialjinx",
-    "image":"img\\Screenshot (70).png",
-    "Discription":"front-end :  React, redux, styled-components back-end : Express Js, node js, mongodb , multur hosting : heruko , netlify",
-    "date":"05-09-2021",
-    "Visit":"https://socialjinx.netlify.app/"
-
-},
-     {
-    "title":"Netflix clone",
-    "image":"https://raw.githubusercontent.com/ajinkya6373/Netflix-Clone/main/netflix-preview.png",
-    "Discription":"This application (a Netflix clone) was built using React (Custom Hooks, Context), Firebase & Styled Components. I have built the following pages within this application: sign in, sign up, browse & lastly the homepage.",
-    "date":"05-09-2021",
-    "Visit":"https://netflix-91856.web.app/"
-
-},
-     {
-    "title":"Amazon Clone",
-    "image":"img\\AmazonClone.png",
-    "Discription":"Amazon clone Technology that I have learned and apply are: React, Redux, React Contax API, firebase, Material Ui, stripe js,Features:  Firebase Authentication used to create account and loginFor payment gateway (only front end) I have used stripe jsUser can add and remove the product from the basket (Redux for Data layerI have hosted this project on firebase responsive Ui",
-    "date":"05-09-2021",
-    "Visit":"https://clone-216bc.web.app/"
-
-},
-{
-    "title":"postaPerson",
-    "image":"img\\postPerson.png",
-    "Discription":" postPerson is developer tool which helps users to check and test Api callsIt can make various types of HTTP requests like GET, POST, PUT, PATCH I have added two Content type ( Json input ,Custom Parameters> user can give json inpu> user Can add multiple parameters",
-    "date":"05-09-2021",
-    "Visit":"https://postperson.netlify.app/"
-
-},
-{
-    "title":"Notes taking webapp",
-    "image":"img\\notesApp.png",
-    "Discription":" Stack which i have use Bootstrap and JavaScript It has Search feature , You can set & differentiate priorities important , deadline , not-important Create & delete feature  Simple and interactive UI",
-    "date":"05-09-2021",
-    "Visit":"https://ajinkya6373.github.io/Notes-app/"
-
-},
-{
-    "title":"Portfoilo",
-    "image":"img\\portfolio.png",
-    "Discription":"Portfolio website i have build using Html CSS And javascript to showcase my work skills and project  ",
-    "date":"05-09-2021",
-    "Visit":"https://ajinkya-portfolio.netlify.app/"
-
-},
-{
-    "title":"Blog template",
-    "image":"img\\indianBlog.png",
-    "Discription":"Features :✔ Fully Responsive ✔ Sticky Navbar ✔ Smooth scrolling ✔ Hamburger ✔ Unsplash API  for fetching images ✔ Mobile Compatibility ✔ Effective Navigation",
-    "date":"05-09-2021",
-    "Visit":"https://ajinkya6373.github.io/Indian_blogger/"
-
-},
-{
-    "title":"Food ordering Website template",
-    "image":"img\\food.png",
-    "Discription":"Food ordering website \n Created using HTML CSS Fully responsive static website",
-    "date":"05-09-2021",
-    "Visit":"https://ajinkya6373.github.io/Food-ordering-website/"
-
-},
-{
-    "title":"Dance website",
-    "image":"img\\dance.png",
-    "Discription":"I made this fully responsive Website for Dance academy (learning purpose) I used mongoose to connect node Js and Mongofor storing contact data. Front end :- Html (PUG ) ,Css, Javascript.Backend :- Node js ,Database :- MongoDBLibrary :- Mongoose",
-    "date":"05-09-2021",
-    "Visit":"note.txt"
-
-},
-{
-    "title":"Login page ",
-    "image":"img\\gym.png",
-    "Discription":"I build this webpage using Html & Css it's great to bulid projects while learnin new things",
-    "date":"05-09-2021",
-    "Visit":"note.txt"
-
-}
-
+[
+    {
+        "title": "socialjinx",
+        "image": "img\\Screenshot (70).png",
+        "Discription": "front-end :  React, redux, styled-components back-end : Express Js, node js, mongodb , multur hosting : heruko , netlify",
+        "date": "05-09-2021",
+        "Visit": "https://socialjinx.netlify.app/",
+        "source": "https://github.com/ajinkya6373/SocialClient"
+    },
+    {
+        "title": "Amazon Clone",
+        "image": "img\\AmazonClone.png",
+        "Discription": "Amazon clone Technology that I have learned and apply are: React, Redux, React Contax API, firebase, Material Ui, stripe js",
+        "date": "05-09-2021",
+        "Visit": "https://clone-216bc.web.app/",
+        "source": "https://github.com/ajinkya6373/Amazon-Clone"
+    },
+    {
+        "title": "postaPerson",
+        "image": "img\\postPerson.png",
+        "Discription": " postPerson is developer tool which helps users to check and test Api callsIt can make various types of HTTP requests like GET, POST, PUT, PATCH",
+        "date": "05-09-2021",
+        "Visit": "https://postperson.netlify.app/",
+        "source": "https://github.com/ajinkya6373/postPerson"
+    },
+    {
+        "title": "Notes taking webapp",
+        "image": "img\\notesApp.png",
+        "Discription": " Stack which i have use Bootstrap and JavaScript It has Search feature , You can set & differentiate priorities important , deadline , not-important Create & delete feature  Simple and interactive UI",
+        "date": "05-09-2021",
+        "Visit": "https://ajinkya6373.github.io/Notes-app/",
+        "source": "https://github.com/ajinkya6373/portfolio"
+    },
+    {
+        "title": "Portfoilo",
+        "image": "img\\portfolio.png",
+        "Discription": " A Portfolio website that i have designed using HTML, CSS and Javascript to showcase my work, skills and projects  ",
+        "date": "05-09-2021",
+        "Visit": "https://ajinkya-portfolio.netlify.app/",
+        "source": "https://github.com/ajinkya6373/portfolio"
+    },
+    {
+        "title": "Stock Price",
+        "image": "img\\mark14.png",
+        "Discription": "Stock Price is a profit margin calculator. It takes initial price, current price and the quantity of the stocks and displays profit value and percentage ",
+        "date": "05-09-2021",
+        "Visit": "https://stock-price14.vercel.app/",
+        "source": "https://github.com/ajinkya6373/StockPrice14"
+    },
+    {
+        "title": "Is your Birthday Palindrome ❓",
+        "image": "img\\mark13.png",
+        "Discription": "This is palindrome calculator which checks if your birthdate is palindrome, which also shows closest palindrome to your birthdate",
+        "date": "05-09-2021",
+        "Visit": "https://palindrome-birthday-app-13.vercel.app/",
+        "source": "https://github.com/ajinkya6373/palindrome-Birthday-App-13"
+    },
+    {
+        "title": "Fun with Triangles",
+        "image": "img\\mark12.png",
+        "Discription": "This is an app which solely based on triangles, it has different functions like quizes, area calculator, 'find the hypotenuse', etc. ",
+        "date": "05-09-2021",
+        "Visit": "https://funwithtriangle12.vercel.app/",
+        "source": "https://github.com/ajinkya6373/funwithtriangle12"
+    },
+    {
+        "title": "Is your Birthday Lucky ❓",
+        "image": "img\\mark11.png",
+        "Discription": "Is your Birthday Lucky is a fun app which sums up your birthdate digits and matches to the lucky number ",
+        "date": "05-09-2021",
+        "Visit": "https://lustrous-cactus-d5bf5e.netlify.app/",
+        "source": "https://github.com/ajinkya6373/isYourBirthdayLucky11"
+    },
+    {
+        "title": "Cash Register 💸",
+        "image": "img\\mark10.png",
+        "Discription": "Cash Register helps you to calculate the number of notes to be returned as change",
+        "date": "05-09-2021",
+        "Visit": "https://cash-register-app-mark-10-byajinkya.netlify.app/",
+        "source": "https://github.com/ajinkya6373/cashRegister10"
+    },
+    {
+        "title": "Travel Recommendation ❤️",
+        "image": "img\\mark9.png",
+        "Discription": "Travel Recommendation is react app which helps you find the best locations to visit. User is given the choice to sort places based on states",
+        "date": "05-09-2021",
+        "Visit": "https://travelrecommendation.vercel.app/",
+        "source": "https://github.com/ajinkya6373/travelrecommendation9"
+    },
+    {
+        "title": "Emoji Interpreter 🗽",
+        "image": "img\\mark8.png",
+        "Discription": "Emoji Interpreter is a react app which tells you the meaning of particular emoji, you can either search emoji and get the meaning or you can get it by clicking on the emoji",
+        "date": "05-09-2021",
+        "Visit": "https://csb-6togt3-7upbgrf86-ajinkya6373.vercel.app/",
+        "source": "https://github.com/ajinkya6373/Emoji-Interpreter-8"
+    },
+    {
+        "title": "Groot Speak",
+        "image": "img\\mark7.png",
+        "Discription": "Groot speak is similar to the mark6 app (Minions Speak) it just translates text into groot's Language .",
+        "date": "05-09-2021",
+        "Visit": "https://ephemeral-pithivier-1111ad.netlify.app/",
+        "source": "https://github.com/ajinkya6373/grootTranslator7"
+    },
+    {
+        "title": "Minions Speak",
+        "image": "img\\mark6.png",
+        "Discription": "Minions Speak is a fun translation app which takes the user input and translates it into funny language (How banana will speak 😂), it uses 'fun translation api' for translation",
+        "date": "05-09-2021",
+        "Visit": "https://62f734d66ae193622bf6dd4a--delightful-crostata-437870.netlify.app/",
+        "source": "https://github.com/ajinkya6373/minions-speak-App_6"
+    },
+    {
+        "title": "Let's talk about cricket 🏏",
+        "image": "img\\mark2.png",
+        "Discription": "Let's talk about cricket is CLI APP similar to the mark1 (How well do you know me), it asks questions related to cricket and shows the score",
+        "date": "05-09-2021",
+        "Visit": "https://replit.com/@ajinkya6373/lets-talk-about-cricket?v=1",
+        "source": "https://github.com/ajinkya6373/let-s-talk-about-cricket2"
+    },
+    {
+        "title": "How well do you know me ❓",
+        "image": "img\\mark1.png",
+        "Discription": "How well do you know me is a CLI quiz app which takes username, asks some question related to Ajinkya and finally shows the scores and heighest scorer",
+        "date": "05-09-2021",
+        "Visit": "https://replit.com/@ajinkya6373/How-well-do-you-know-me?v=1",
+        "source": "https://github.com/ajinkya6373/how-well-Do-you-know-me1"
+    }
 ]
