@@ -1,3 +1,9 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap);
+@import url(https://fonts.gstatic.com);
+
 *{
    margin: 0px;
    padding: 0px;
@@ -23,18 +29,15 @@ body{
 }
 
 #navbar{
-    /* border: 2px solid red; */
     background-color: black;
     display: flex;
     align-items: center;
     position: sticky;
-    /* height: 115px; */
     top :0;
     z-index: 1;
     font-family: 'Baloo Bhai', cursive;
 }
 #icon{
-   /* border: 2px solid red; */
    display: flex;
 }
 #icon li a{
@@ -42,8 +45,7 @@ body{
     padding: 1px 13px ;
     border: 1px solid rgb(0, 238, 255);
     border-radius: 8px ;
-    text-decoration: none;
-    /* border: 2px solid red; */
+
 }
 #icon li:hover a{
     color: rgb(0, 0, 0);
@@ -55,13 +57,11 @@ body{
 #icon li {
     margin: 6px;
     list-style: none;
-    /* border: 2px solid red; */
   
 }
 
 .primary{
 font-size: 45px;
-/* border: 2px solid red; */
 display: inline-block;
 text-align: center;
 top: 34px;
@@ -73,7 +73,6 @@ top: 34px;
 }
 
 #home{
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,7 +112,6 @@ top: 34px;
 }
 
 #presonal_container{
-    /* border: 1px solid rgb(0, 0, 0); */
     background-color: white;
     width: 75%;
     margin: 3% 0%;
@@ -173,7 +171,7 @@ progress {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   margin: 46px 70px;
+    margin: 46px 70px;
     border-radius: 23px;
     font-family: 'Bree Serif', serif;
     padding: 56px;
@@ -214,7 +212,8 @@ progress {
     max-width: 363px;
     min-height: 200px;
     min-height: 23rem;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 5px;
+    box-shadow: rgba(66, 65, 65, 0.19) 0px 10px 20px, rgba(63, 54, 54, 0.23) 0px 6px 6px;
  
 }
 .card h3 {
@@ -255,10 +254,7 @@ progress {
     transform: scale(1.2);
     transition: all 0.4s ease-in;
 }
-/* 
-a{
-    position: absolute;
-} */
+
 .glow-on-hover {
     color: white;
     background-color: #111;
@@ -287,13 +283,53 @@ footer{
     height: 60px;
     padding-top: 35px;
     margin-top: 12px;
-    
 }
 footer a{
     list-style: none;
     margin-left: 25px;
     text-decoration: none;
     font-size: 1rem;
+}
+.bImg{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+.blogContainer img{
+    margin-top: 1rem;
+}
+.blogContainer{
+    display: flex;
+    background-image:-webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%) ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    border-radius: 23px;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.blogContainer h1{
+    margin-top: 1rem;
+}
+.bTitle{
+    margin-top: 1rem;
+   
+}
+.bDescription{
+    margin: 1rem;
+}
+.bBtn{
+    text-decoration: none;
+    cursor: pointer;
+    background-color:black;
+    border-radius: 2rem;
+    color: white;
+    padding: 1px 13px;
+    border: 1px solid rgb(0, 238, 255);
+    border-radius: 8px;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 900px) {
