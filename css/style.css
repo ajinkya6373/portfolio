@@ -420,7 +420,7 @@ footer a{
   }
 
 
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 543px) {
     #navbar{
      height: auto;
     }
@@ -436,6 +436,9 @@ footer a{
       }
       #logo img {
           height: 100px;
+      }
+      .BtnContainer{
+        position: unset;
       }
    
   }
