@@ -296,6 +296,7 @@ footer a{
 }
 .blogContainer img{
     margin-top: 1rem;
+    width: 30%;
 }
 .blogContainer{
     display: flex;
